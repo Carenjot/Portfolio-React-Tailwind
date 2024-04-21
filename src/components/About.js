@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 import CountUp from 'react-countup';
@@ -71,7 +72,7 @@ const About = () => {
           </div>
           <div className='flex gap-x-8 items-center'>
             <button className='btn btn-lg'>Contactez moi</button>
-            <a href='#' className='text-gradient btn-link'>
+            <a href='/' className='text-gradient btn-link'>
               Mon Portfolio
             </a>
           </div>
