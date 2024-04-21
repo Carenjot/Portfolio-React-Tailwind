@@ -1,37 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 
 .btn {
-  background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
-  );
+  background: radial-gradient(#3bace2, #406aff) ;
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
 .btn:hover {
-  background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
+  background: radial-gradient(#406aff, #3bace2) ;
 }
 
 .gradient,
 .active {
-  background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
+  background: radial-gradient(#3bace2, #406aff) ;
 }
 
 .active {
@@ -56,6 +39,9 @@
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
   }
+  .btn-lp {
+    @apply h-[48px] px-20 text-sm;
+  }
   .btn-lg {
     @apply h-[56px] px-10 text-base;
   }
@@ -63,7 +49,7 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#406aff] font-bold font-primary hover:from-[#406aff] hover:to-[#42A6E3];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
