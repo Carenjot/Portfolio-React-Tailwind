@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { BsArrowUpRight } from 'react-icons/bs'
 
 import { motion } from 'framer-motion'
 
@@ -54,7 +53,7 @@ const Services = () => {
         className='flex-1'>
           <div>
             {services.map((service, index) => {
-              const{name, description, link} = service;
+              const{name, description} = service;
               return (
               <div className='border-b border-white/20 h-[146px] mb-[38px] flex' key={index}>
                 <div className='max-w-[600px]'>
