@@ -21,17 +21,16 @@ const Contact = () => {
             </h2>
           </div>
         </motion.div>
-        <motion.form
+        <motion.div
         variants={fadeIn('left', 0.3)}
         initial="hidden"
         whileInView={"show"}
         viewport={{once: false, amount:0.3}}
-        className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
-          <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-sky-400 transition-all' type='text' placeholder='Votre Nom'/>
-          <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-sky-400 transition-all' type='text' placeholder='Votre Email'/>
-          <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-sky-400 transition-all resize-none mb-12' placeholder='Votre message'></textarea>
-          <button className='btn btn-lg'>Envoyez un message</button>
-        </motion.form>
+        className='flex-1 border rounded-2xl flex flex-col gap-y-8 p-6 items-start'>
+          <div><h2 className='inline'>Numéro : </h2><h3 className='inline'> 06.49.61.34.07</h3></div>
+          <div><h2 className='inline'>Mail : </h2><h3 className='inline'>carenjot.aurelien@hotmail.fr</h3></div>
+          <div><h2 className='inline'>Mon CV : </h2><a href="..\assets\CV.png" download>Télécharger mon CV</a></div>
+        </motion.div>
       </div>
     </div>
   </section>;
