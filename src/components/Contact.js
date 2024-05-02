@@ -7,7 +7,7 @@ import { fadeIn } from '../variants';
 import CV from '../assets/CV.pdf';
 
 const Contact = () => {
-  return <section className='py-16 lg:section' id="contact">
+  return <section className='py-16 mt-40 mb-40 lg:section' id="contact">
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row'>
         <motion.div
@@ -15,7 +15,7 @@ const Contact = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{once: false, amount:0.3}}
-        className='flex-1 flex justify-start'>
+        className='flex-1 flex justify-start ml-20 mb-20'>
           <div>
             <h4 className='text-x1 uppercase text-sky-400 font-medium mb-2 tracking-wide'>Entrez en contact</h4>
             <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>Travaillons <br/>

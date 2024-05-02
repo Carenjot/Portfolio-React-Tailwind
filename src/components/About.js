@@ -54,8 +54,8 @@ const About = () => {
                   <CountUp start={0} end={4} duration={4} /> : null}
               </div>
               <div className='font-primary text-sm lg:tracking-[2px]'>
-                Années dans le <br />
-                Développement Web
+                Ans dans le <br />
+                Dév Web
               </div>
             </div>
             <div>
@@ -65,8 +65,8 @@ const About = () => {
                   <CountUp start={0} end={2} duration={4} /> : null}
               </div>
               <div className='font-primary text-sm lg:tracking-[2px]'>
-                Années dans <br />
-                la modélisation 3d
+                Ans dans <br />
+                le 3D
               </div>
             </div>
           </div>
