@@ -35,7 +35,7 @@ const About = () => {
           <h2 className='h2 text-sky-400'>A propos de moi.</h2>
           <h3 className='h3 mb-4'>Passionné d'informatique depuis toujours, j'ai le rêve de faire de ma passion mon métier.</h3>
           <p className='mb-6'>Toujours à la recherche de nouveaux défis pour augmenter mes compétences et pouvoir partager mon savoir faire.</p>
-          <div className='flex gap-x-4 lg:gap-x-10 mb-12'>
+          <div className='flex gap-x-10 mb-12'>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
