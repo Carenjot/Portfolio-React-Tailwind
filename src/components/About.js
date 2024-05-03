@@ -66,7 +66,7 @@ const About = () => {
               </div>
               <div className='font-primary text-sm lg:tracking-[2px]'>
                 Ans dans <br />
-                le 3D
+                la 3D
               </div>
             </div>
           </div>
